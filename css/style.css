@@ -7,10 +7,12 @@
   background-color: black;
   font-family: "Dongle", sans-serif;
   padding: 1rem;
+  
 }
 a {
+  
   transition: background-color 0.5s;
-}
+  }
 
 a:hover {
   color: orange;
@@ -24,13 +26,14 @@ a:hover {
   justify-content: space-evenly;
 }
 
-ul {
+/*ul {
   list-style-type: none;
-}
+  }*/
 
 p {
   color: white;
   font-family: "Dongle", sans-serif;
+  font-size: smaller;
 }
 
 .Color {
@@ -53,6 +56,6 @@ p {
   margin-bottom: 50px;
 }
 .footercolor {
-  color: white;
+  color: black;
   justify-content: space-around;
 }
