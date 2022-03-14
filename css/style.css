@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.form  {
+    width: 460px; 
+  height: auto;
+  margin: 80px auto;
+border-radius: 10px;  
+padding-top: 30px;
+padding-bottom: 20px;  
+   padding-left: 30px; 
+}
+
+         
+
+
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover {
+    transform: scale(1.1);
+}
+.transparente{
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    -khtml-opacity: 0.8;
+    }
+.fondo {
+    background-repeat: no-repeat;
+    background-image: url("../imagenes/background.jpg")  
+   
+
+}
+.cajita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    width: 100%;      
+    display: flex; 
+    justify-content: end;
+    position: absolute;
+    flex-wrap: wrap;
+    align-self: flex-end;   
+       
+}
+
+
+.test2{
+    padding: 10%;
+}
